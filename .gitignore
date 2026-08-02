@@ -1,0 +1,22 @@
+# macOS metadata
+.DS_Store
+
+# Secrets and local configuration
+.env
+.env.local
+secrets/
+private/
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Large virtualization files
+*.iso
+*.img
+*.qcow2
+*.vmdk
+*.vdi
+*.ova
+*.vma
+*.vma.zst
