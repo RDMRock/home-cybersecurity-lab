@@ -53,3 +53,8 @@ Installation will be completed during the next session.
 5. Verify SSH operation.
 6. Create a clean baseline snapshot.
 7. Create the Kali VM at `192.168.56.10/24`.
+
+
+## Static Lab Address
+
+The Ubuntu target was assigned `192.168.56.20/24` on its isolated VirtIO interface. No default gateway or DNS server was configured, preventing unintended internet access.
