@@ -5,7 +5,9 @@ A controlled virtual environment for learning system administration, network iso
 
 ## Project status
 
-The Proxmox VE host is installed on my home pc and remotely manageable through an encrypted Tailscale connection. The isolated lab network and guest virtual machines are the next checkpoint.
+This repository preserves my early Proxmox build journal and initial lab plan. Subsequent coursework documents Kali, Windows 7, pfSense, Docker applications, and completed security investigations in the [cybersecurity lab portfolio](https://github.com/RDMRock/cybersecurity-lab-portfolio). The original plans and checklists below describe the build-journal stage, not a current audit of the running environment.
+
+For job-application examples, start with the [web vulnerability fixes](https://github.com/RDMRock/cybersecurity-lab-portfolio/blob/main/case-studies/07-web-vulnerabilities-and-remediation.md), [MCP hardening and regression tests](https://github.com/RDMRock/cybersecurity-lab-portfolio/tree/main/code/mcp-hardening), or my [applied cryptography work](https://github.com/RDMRock/applied-cryptography-labs).
 
 ## Purpose
 
@@ -126,8 +128,12 @@ This scenario connects virtualization, networking, Linux administration, telemet
 
 
 - [Session 01: Proxmox baseline and secure remote access](docs/session-01-proxmox-baseline.md)
+- [Session 02: Ubuntu installation media](docs/session-02-ubuntu-iso.md)
+- [Session 03: Ubuntu VM build](docs/session-03-ubuntu-vm-build.md)
+- [Session 04: Ubuntu baseline](docs/session-04-ubuntu-baseline.md)
+- [Session 05: RHEL media staging](docs/session-05-rhel-media-staging.md)
 
-Future entries will cover:
+The initial roadmap included:
 
 - Isolated virtual networking
 - Kali installation and hardening
@@ -137,7 +143,7 @@ Future entries will cover:
 - Python detector integration
 - Incident reporting
 
-## Milestones
+## Initial milestone checklist
 
 - [x] Select the virtualization platform
 - [x] Install Proxmox VE
